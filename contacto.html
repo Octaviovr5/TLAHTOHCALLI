@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title> CONTACTO </title>
+             <link rel="stylesheet" href="reset.css/reset.css">
+             <link rel="stylesheet" href="style-products.css">
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+<body>
+     <header>
+          <div class="caja">
+            <h1 id="logoAlura"><img src="imagenes/logobnpng.png" alt="LOGO OCTAVIO"></h1>
+            <nav>
+             <ul>
+                <li><a href="inicio.html">HOME</a></li>
+                <li><a href="productos.html">PROYECTOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+             </ul>
+           </nav>
+        </div>
+     </header>
+     <main id="registros">
+         <form>
+            <label  for="nombreyapellido">Nombre completo</label>
+            <input type="text" id="nombreyapellido" class="input-padron" required>
+
+            <label for="correoelectronico">Correo electronico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="Telefono">Telefono</label>
+            <input type="tel" id="Telefono" class="input-padron" required placeholder="(55)5555-5555">
+
+            <label for="Mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="Mensaje" class="input-padron" required></textarea>
+        <fieldset><legend>¿Como le gustaria que lo contactemos?</legend></fieldset>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+            
+
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+            
+        </fieldset>  
+        <fieldset>
+        <legend>
+            ¿En cual horario desea ser contactado?
+        </legend>
+        <select>
+            <option>MAÑANA</option>
+            <option>TARDE</option>
+            <option>NOCHE</option>
+        </select>
+    </fieldset>
+            
+  <!--  <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la Barberia Alura?</label> -->
+            
+           <input type="submit" value="Enviar Formulario" class="enviar">
+       <!--   </form>
+         <table>
+            <thead>
+            <tr>
+                <th>Dia</th>
+                <th>Horario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>08-20hrs</td>
+            </tr>
+            <tr>
+                <td>Miercoles</td>
+                <td>08-20hrs</td>
+            </tr>
+            <tr> 
+                <td>Viernes</td>
+                <td>08-20hrs</td>
+            </tr>
+           </tbody>
+         </table>-->
+         <div class="redesSociales";>
+         <a id="logoredes" href="https://www.facebook.com/octavio.velazquezr?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+         <a id="logoredes" href="https://www.instagram.com/octaviovr3?igsh=NHVoYjNqcGFjcWZ0" target="_blank"><i class="fab fa-instagram"></i></a>
+         </div>
+     </main>
+     <footer>
+        <img src="imagenes/logobnpng.png"> 
+        <p class="copyrigth">	&copy;Copyrigth <a href="https://www.instagram.com/octaviovr3?igsh=NHVoYjNqcGFjcWZ0"> Arquitecto Octavio</a> - 2024</p>
+    </footer>
+     </body>
+ </html>
